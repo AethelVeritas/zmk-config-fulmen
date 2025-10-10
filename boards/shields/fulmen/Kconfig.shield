@@ -1,0 +1,5 @@
+config SHIELD_FULMEN_LEFT
+    def_bool $(shields_list_contains,fulmen_left)
+
+config SHIELD_FULMEN_RIGHT
+    def_bool $(shields_list_contains,fulmen_right)
