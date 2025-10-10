@@ -22,5 +22,5 @@
         extra2 {
             status = "reserved";
         };
-    }
-}
+    };
+};
