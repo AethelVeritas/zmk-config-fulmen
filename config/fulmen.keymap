@@ -73,7 +73,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp DOT>, <&kp SPACE>;
-        };T
+        };
         // Tap dance single tap = H double tap = Raycast/Krunner seach (ALT + space)
 
         search_dance: tapdance_search {
