@@ -118,9 +118,9 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp Q       &kp W         &kp E          &kp R          &kp T             &kp Y         &kp U         &kp I         &kp O       &kp P
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &hm LGUI A    &hm LALT S   &hm LCTRL D   &hm LSHFT F     &kp G           &search_dance  &hm RSHFT J   &hm RCTRL K   &hm RALT L  &hm RGUI SEMI 
+      &hm LSHIFT A  &hm LGUI S   &hm LALT D   &hm LCTRL  F     &kp G           &search_dance &hm RCTRL J   &hm RALT  K   &hm RGUI L  &hm RSHIFT SEMI 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp Z     &cut_dance      &copy_dance    &paste_dance    &kp B           &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
+        &kp Z        &kp X         &kp C       &kp V            &kp B           &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                     		  &kp TAB      &lt NUM SPACE  &kp ENTER          &kp ENTER   &lt SYM BSPC     &kp ESC
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯

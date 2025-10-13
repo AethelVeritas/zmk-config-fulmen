@@ -9,9 +9,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+
 if SHIELD_FULMEN_LEFT || SHIELD_FULMEN_RIGHT
 
 config ZMK_SPLIT
     default y
 
 endif
+
+CONFIG_ZMK_POINTING=y
