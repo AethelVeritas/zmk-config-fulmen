@@ -65,7 +65,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <180>;
-            bindings = <&kp X>, <&kp C_AC_PASTE>; 
+            bindings = <&kp X>, <&kp C_AC_CUT>; 
         };
         // Tap dance single tap = . double tap = SPACE(for NUM layer)
         dot_spc: dot_space {
@@ -122,7 +122,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp Z     &cut_dance      &copy_dance    &paste_dance    &kp B           &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                    		     TAB      &lt NUM SPACE  &kp ENTER          &kp ENTER   &lt SYM BSPC     ESC
+                    		  &kp TAB      &lt NUM SPACE  &kp ENTER          &kp ENTER   &lt SYM BSPC     ESC
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
            >;
         };
