@@ -32,14 +32,6 @@
 };
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <NUM SYM>;
-            then-layer = <FUNC>;
-        };
-    };
-
     behaviors {
         seco: semi_comma {
             compatible = "zmk,behavior-mod-morph";
@@ -150,7 +142,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp Z        &kp X         &kp C       &kp V            &kp B           &kp N         &kp M         &seco         &dotco        &kp FSLH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                    		  &kp TAB      &lt NUM SPACE  &kp ESC          &kp ENTER   &lt SYM BSPC     &kp ESC
+                    		  &lt FUNC TAB     &lt NUM SPACE  &kp ESC          &kp ENTER   &lt SYM BSPC     &kp ESC
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
            >;
         };
